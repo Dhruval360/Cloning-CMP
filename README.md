@@ -5,6 +5,9 @@ The name of the executable created will be CMP. So, use ./CMP followed by comman
 
 # File used:
 cmp_server.h has the function declarations.
+
 cmp_server.c has the function implementations.
+
 cmp_client.c has the main function.
+
 m.mk is the makefile.
