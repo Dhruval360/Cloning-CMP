@@ -5,10 +5,6 @@
 #include<math.h>
 #include"cmp_server.h"
 
-/*
-New things discovered (by accident while trying out stuff)
-1) Typing '\' in the terminal input takes you to new line
-*/
 
 /*
 Observations made: 
@@ -28,7 +24,7 @@ Bugs:
 */
 
 /*
-Couldn't do (Due to time constraints):
+Yet to be implemented:
 1) Take in numbers in any format other than base 10. (cmp supports octal, binary and hexadecimal byte value input as well).
 2) Check for directories. (When a directory is entered in place of a filename, cmp can spot that and tells the user that it’s a directory).
 3) Alignment of output in some cases.
