@@ -947,5 +947,5 @@ void help()
 
 void version()
 	{
-	printf("cmp (GNU diffutils) 3.6\nCopyright (C) 2017 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n\nWritten by Torbjörn Granlund and David MacKenzie.\n");	
+	printf("This is an attempt to replicate:\n\ncmp (GNU diffutils) 3.6\nCopyright (C) 2017 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n\nWritten by Torbjörn Granlund and David MacKenzie.\n");	
 	}
