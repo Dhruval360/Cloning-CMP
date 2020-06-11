@@ -1,15 +1,28 @@
 # Cloning-CMP
 This is a C program that clones the CMP command in LINUX.  
 
-Use make command: make -f m.mk to create the executable on LINUX.
+# Project Structure
+```
+Cloning-CMP
+├── Makefile
+├── Project-Report.pdf
+├── README.md
+└── src
+    ├── cmp_client.c [Contains the main function]
+    ├── cmp_server.c [Contains the function implementations]
+    └── cmp_server.h [Contains the function declarations]
+```
 
-The name of the executable created will be CMP. So, use ./CMP followed by command line arguments to run the program.
+# Dependencies
+A C compiler like gcc or clang
 
-# Files used:
-cmp_server.h has the function declarations.
+# Compiling and running
+Compile using the make utility:
+```
+$ make CMP -j2
+```
 
-cmp_server.c has the function implementations.
-
-cmp_client.c has the main function.
-
-m.mk is the makefile.
+Run the following command to print the help doc for the program:
+```
+$ ./build/bin/CMP --help
+```
